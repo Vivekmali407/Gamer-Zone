@@ -59,6 +59,7 @@ html,body{
 }
 .nav2 i{
     color: black;
+    display: none;
 }
 
 .content{
@@ -116,6 +117,12 @@ html,body{
     width: 50%;
     /* background-color: antiquewhite; */
 }
+.right img{
+    height: 100%;
+    width: 100%;
+    
+
+}
 
 @media (max-width:600px){
     .nav{
@@ -145,6 +152,9 @@ html,body{
         padding: 1.5vw 1.5vw;
         border-radius: 4px;
     }
+    .nav2 i{
+        display: block;
+    }
     .content{
         height: calc(100% - 60px);
         flex-direction: column;
@@ -158,6 +168,9 @@ html,body{
     .right{
         height: 55%;
         width: 100%;
+    }
+    .right img{
+        width: 85vw;
     }
     .left h1{
         font-size: 10vw;
